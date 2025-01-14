@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Godfather</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <header>
+            <button class="button" data-text="Awesome">
+                <span class="actual-text">&nbsp;Moviegeeks&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;Moviegeeks&nbsp;</span>
+            </button>
+            <div class="group">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                    <g>
+                        <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                    </g>
+                </svg>
+                <input placeholder="Search" type="search" class="input">
+            </div>
+            <ul>
+                <li>
+                    <a href="interface.html">
+                        <i class="fas fa-home"></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="MostWatched.html">
+                        <i class="fas fa-star"></i>
+                        <p>Most watched</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="sign-in.html">
+                        <i class="fas fa-user-group"></i>
+                        <p>Sign in</p>
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+    <main>
+        <!-- Movie Details Section -->
+        <section id="movie-details">
+            <div class="movie-poster">
+                <img src="thegodfather.jpg" alt="The Godfather Poster">
+            </div>
+            <div class="movie-info">
+                <h2>The Godfather</h2>
+                <p><strong>Director:</strong> Francis Ford Coppola</p>
+                <p><strong>Main Cast:</strong> Marlon Brando, Al Pacino, James Caan</p>
+                <p><strong>Synopsis:</strong> The Godfather is a classic American crime drama film directed by Francis Ford Coppola, based on the novel of the same name by Mario Puzo. The movie is widely regarded as one of the greatest films in cinematic history and is a powerful exploration of family, power, loyalty, and the American Dream.</p>
+                <p>The film opens during the wedding of Vito Corleone's daughter, Connie (Talia Shire). As per tradition, Vito grants favors to friends and associates during the celebration, showcasing his power and influence. However, the Corleone family is at a crossroads. Vito is approached by Virgil "The Turk" Sollozzo, a drug trafficker, who seeks the Corleones' protection and political connections to expand his narcotics business. Vito refuses, citing that drugs are too risky and could damage his political alliances.
+
+                    This refusal sparks a violent conflict between the Corleones and rival Mafia families. Sollozzo orchestrates an assassination attempt on Vito, leaving him severely wounded. With Vito incapacitated, Sonny takes temporary control of the family and declares war on their enemies.
+                    
+                    Michael returns to the U.S. after learning of Sonny's death and takes over as the new head of the family. He consolidates power, relocates the family's operations to Las Vegas, and begins planning his revenge. In a climactic sequence, Michael orchestrates a series of assassinations to eliminate all his enemies, including the heads of the rival families and those within his own organization who betrayed the Corleones.
+                    
+                    By the end of the film, Michael has fully embraced his role as the new Godfather, becoming colder and more ruthless than his father. The movie concludes with Michael lying to Kay about his involvement in the murders, symbolizing his complete transformation into a Mafia boss.</p>
+            </div>
+        </section>
+
+        <!-- Trailer Section -->
+        <section id="trailer">
+            <h2>Trailer</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/UaVTIH8mujA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <h3>User Name</h3>
+                    <div class="rating">★★★★★</div>
+                    <p>An absolute masterpiece! The acting, direction, and storytelling are flawless.</p>
+                </div>
+                <div class="review-card">
+                    <h3>Another User</h3>
+                    <div class="rating">★★★★☆</div>
+                    <p>Classic film with powerful performances, though a bit slow-paced.</p>
+                </div>
+                <div class="review-card">
+                    <h3>Yet Another User</h3>
+                    <div class="rating">★★★★★</div>
+                    <p>One of the greatest films ever made. A must-watch!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Submit Review Section -->
+        <section id="submit-review">
+            <h2>Submit a Review</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="rating">Rating:</label>
+                <div class="rating-stars-container">
+                    <input value="1" name="star" id="star-1" type="radio" />
+                    <label for="star-1" class="star-label">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path>
+                        </svg>
+                    </label>
+                    <input value="2" name="star" id="star-2" type="radio" />
+                    <label for="star-2" class="star-label">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path>
+                        </svg>
+                    </label>
+                    <input value="3" name="star" id="star-3" type="radio" />
+                    <label for="star-3" class="star-label">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path>
+                        </svg>
+                    </label>
+                    <input value="4" name="star" id="star-4" type="radio" />
+                    <label for="star-4" class="star-label">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path>
+                        </svg>
+                    </label>
+                    <input value="5" name="star" id="star-5" type="radio" />
+                    <label for="star-5" class="star-label">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z" pathLength="360"></path>
+                        </svg>
+                    </label>
+                </div>
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                <button class="butt" type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>Moviegeeks &copy; Copyright 2024</p>
+                <nav>
+                    <a href="#terms" class="footer-link">Terms of use</a>
+                    <span> | </span>
+                    <a href="#privacy" class="footer-link">Privacy Policy</a>
+                </nav>
+            </div>
+        </footer>
+    </main>
+</div>
+</body>
+</html>

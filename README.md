@@ -4,4 +4,4 @@ It's a small website project featuring trailers, reviews, and ratings for movies
 The website is built on ChatGPT and contains only HTML and CSS code.
 
 ## Website images:
-<img src="‪C\Users\DELL\Downloads\MovieGeeks1.PNG" alt="Alt text" width="300"/>
+<img src="‪Users\DELL\Downloads\MovieGeeks1.PNG" alt="Alt text" width="300"/>
